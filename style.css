@@ -101,9 +101,6 @@ header {
     flex-wrap: nowrap;
     height: 12em;
   }
-  .menu {
-    flex-wrap: wrap;
-  }
 }
 @media screen and (max-width: 310px) {
   .menu button {
