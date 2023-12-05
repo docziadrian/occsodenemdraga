@@ -45,11 +45,17 @@ header {
     height: 40px;
     width: 17.2em;
   }
+  .menu {
+    flex-wrap: nowrap;
+  }
 }
 @media screen and (max-width: 968px) {
   .menu button {
     height: 40px;
     width: 15.2em;
+  }
+  .menu {
+    flex-wrap: nowrap;
   }
 }
 @media screen and (max-width: 862px) {
@@ -57,11 +63,17 @@ header {
     height: 40px;
     width: 10.2em;
   }
+  .menu {
+    flex-wrap: nowrap;
+  }
 }
 @media screen and (max-width: 594px) {
   .menu button {
     height: 40px;
     width: 8.2em;
+  }
+  .menu {
+    flex-wrap: nowrap;
   }
 }
 @media screen and (max-width: 492px) {
@@ -79,6 +91,9 @@ header {
     height: 40px;
     width: 12.2em;
   }
+  .menu {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 400px) {
   .menu {
@@ -86,11 +101,17 @@ header {
     flex-wrap: nowrap;
     height: 12em;
   }
+  .menu {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 310px) {
   .menu button {
     height: 40px;
     width: 8.2em;
+  }
+  .menu {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 260px) {
@@ -102,6 +123,9 @@ header {
     justify-content: center;
     height: 12em;
   }
+  .menu {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 124px) {
   .menu button {
@@ -112,6 +136,9 @@ header {
     justify-content: center;
     height: 12em;
   }
+  .menu {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 68px) {
   .menu button {
@@ -121,6 +148,9 @@ header {
   .menu {
     justify-content: center;
     height: 12em;
+  }
+  .menu {
+    flex-wrap: wrap;
   }
 }
 
